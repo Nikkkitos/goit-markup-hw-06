@@ -477,6 +477,9 @@ button:focus {
 .footer-link-media:focus {
     background-color: #31d0aa;
 }
+.subscribe-send {
+    fill: #FFFFFF;
+}
 /* =======FILTER======= */
 .filter-btn {
     font-family: 'Roboto', sans-serif;
@@ -590,7 +593,6 @@ button:focus {
     position: relative;
     overflow: hidden;
 }
-/* .overlay-text */
 .overlay-text {
     position: absolute;
     top: 0;
