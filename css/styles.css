@@ -412,17 +412,16 @@ button:focus {
 }
 .container-div-footer {
     display: flex;
-    align-items: baseline;
+    /* margin-left: 156px; */
 }
 .container-footer {
     align-items: baseline;
     gap: 120px;
-    margin: 0px auto;
-    padding: 0px 15px;
+    justify-content: center;
 }
-/* .container-social-footer {
-    margin-left: 120px;
-} */
+.container-footer-form {
+    margin-left: -25px;
+}
 .footer-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -699,6 +698,9 @@ button:focus {
   | Form
   |============================
 */
+.subscribe-form {
+    display: flex;
+}
 .footer-subscribe-par {
     display: flex;
     align-items: center;
@@ -712,7 +714,6 @@ button:focus {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-
 .footer-form-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -721,15 +722,19 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    position: absolute;
     display: flex;
     align-items: center;
     background-color: transparent;
-    border: none;
+    height: 40px;
+    width: 264px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .subscribe-btn {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
@@ -744,6 +749,8 @@ button:focus {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    margin-left: 24px;
+    border: none;
 }
 .window-form {
     display: block;
