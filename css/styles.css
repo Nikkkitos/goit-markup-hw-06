@@ -775,7 +775,12 @@ button:focus {
 }
 .modal-form {
     margin-left: 24px;
-} 
+}
+.window-accept {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
 .window-btn {
     width: 169px;
     height: 56px;
