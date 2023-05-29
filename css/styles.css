@@ -767,9 +767,11 @@ button:focus {
     width: 360px;
     height: 40px;
     margin: 0 24px;
-    margin-bottom: 13px;
+}
+.window-write-comment {
+    width: 360px;
+    height: 120px;
 }
 .modal-form {
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-}
+    margin-left: 24px;
+} 
