@@ -582,35 +582,34 @@
           </svg>
         </button>
         <p class="modal-par">Leave your contacts and we will call you back</p>
-        <form name="subscribe_form" autocomplete="on">
-            <label class="modal-form">
-              <span class="window-form">Name</span>
-              <svg class="modal-close-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-name"></use>
+        <form name="modal_form" autocomplete="on">
+            <label class="modal-form" for="modal_name">Name</label>
+            <div>
+              <input class="window-write" type="text" name="modal_name" />
+              <svg class="window-icon" width="12" height="12">
+                <use href="./images/icons.svg#person-black"></use>
               </svg>
-              <input class="window-write" type="name" name="user_name" />
-            </label>
-            <label class="modal-form">
-              <span class="window-form">Phone</span>
-              <svg class="modal-close-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-phone"></use>
+            </div>
+            <label class="modal-form" for="modal_phone">Phone</label>
+            <div>
+              <input class="window-write" type="text" name="modal_phone" />
+              <svg class="window-icon" width="12" height="12">
+                <use href="./images/icons.svg#phone-black"></use>
               </svg>
-              <input class="window-write" type="phone" name="user_phone" />
-            </label>
-            <label class="modal-form">
-              <span class="window-form">Email</span>
-                <svg class="modal-close-icon" width="12" height="12">
-                  <use href="./images/icons.svg#icon-email"></use>
+            </div>
+            <label class="modal-form" for="modal_email">Email</label>
+            <div>
+              <input class="window-write" type="text" name="modal_email" />
+                <svg class="window-icon" width="12" height="12">
+                  <use href="./images/icons.svg#email-black"></use>
                 </svg>
-              <input class="window-write" type="email" name="user_email" />
-            </label>
-            <label class="modal-form">
-              <span class="window-form">Comment</span>
-              <textarea class="window-write-comment" type="comment" name="user_comment" placeholder="Text input">
-            </label>
-            <label class="modal-form">
-              <input class="window-accept" type="accept" name="user_accept" />
-              I accept the terms and conditions of the Privacy Policy
+            </div>
+
+            <label class="modal-form" for="modal_comment">Comment</label>
+              <textarea name="modal_comment" id="" rows="6" placeholder="Text input"></textarea>
+            <label class="modal-form" for="modal_agreement">
+              <input class="window-accept" type="checkbox" name="modal_agreement" />
+              <span>I accept the terms and conditions of the <a href="" Privacy Policy></a></span>
             </label>
             <button class="window-btn" type="submit">Send</button>
         </form>

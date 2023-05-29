@@ -774,7 +774,14 @@ button:focus {
     margin: 0 24px;
 }
 .modal-form {
+    position: relative;
     margin-left: 24px;
+}
+.window-icon {
+    position: absolute;
+    top: 46px;
+    left: 15px;
+
 }
 .window-accept {
 display: flex;
