@@ -699,6 +699,34 @@ button:focus {
   | Form
   |============================
 */
+.footer-subscribe-par {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-form-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
 .subscribe-btn {
     display: flex;
     flex-direction: row;
