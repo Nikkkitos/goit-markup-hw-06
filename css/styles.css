@@ -417,10 +417,12 @@ button:focus {
 .container-footer {
     align-items: baseline;
     gap: 120px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
-.container-social-footer {
+/* .container-social-footer {
     margin-left: 120px;
-}
+} */
 .footer-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -676,4 +678,61 @@ button:focus {
 }
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-par {
+    margin-top: 72px;
+    margin-right: 24px;
+    margin-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/**
+  |============================
+  | Form
+  |============================
+*/
+.subscribe-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 16px;
+    background: #4D5AE5;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.window-form {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+}
+.window-write {
+    width: 360px;
+    height: 40px;
+    margin: 0 24px;
+    margin-bottom: 13px;
+}
+.modal-form {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
 }
