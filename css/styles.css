@@ -733,7 +733,7 @@ button:focus {
 .form-icon {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 17px;
     transform: translateY(-50%);
     transition: 400ms;
     pointer-events: none;
