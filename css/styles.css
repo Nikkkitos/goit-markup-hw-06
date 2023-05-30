@@ -776,6 +776,7 @@ button:focus {
 .form-agreement-text {
     font-size: 14px;
     user-select: none;
+    color: #8E8F99;
 }
 
 .form-agreement-link {
