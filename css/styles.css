@@ -671,7 +671,6 @@ button:focus {
     position: absolute;
     top: calc(50%);
     left: calc(50%);
-    transform: translateX(-50%) translateY(-50%);
 
     width: 450px;
     min-height: 500px;
