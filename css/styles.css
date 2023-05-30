@@ -722,7 +722,7 @@ button:focus {
     outline: transparent;
     outline-offset: -1px;
     border-radius: 4px;
-    border: 1px solid;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     transition: 400ms;
 }
 
@@ -758,6 +758,7 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .form-comment:focus {
@@ -773,7 +774,7 @@ button:focus {
 }
 
 .form-agreement-text {
-    font-size: 12px;
+    font-size: 14px;
     user-select: none;
 }
 
